@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="argsfind:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/argsfind_jar</output-path>
+    <root id="archive" name="argsfind.jar">
+      <element id="module-output" name="argsfind" />
+    </root>
+  </artifact>
+</component>
