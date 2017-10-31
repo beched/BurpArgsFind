@@ -63,7 +63,7 @@ public class BurpArgsfind {
         if(pType == IParameter.PARAM_COOKIE) {
             List<String> headers = iInfo.getHeaders();
             headers.add("Cookie: " + query);
-            Request = iHelpers.buildHttpMessage(headers, iHelpers.stringToBytes(query));
+            Request = iHelpers.buildHttpMessage(headers, null);
         }
         if(pType == IParameter.PARAM_BODY) {
             Request = iHelpers.buildHttpMessage(iInfo.getHeaders(), iHelpers.stringToBytes(query));
